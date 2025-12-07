@@ -1,0 +1,107 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Android build files - EXCLUDE ALL
+android/app/build/
+android/.gradle/
+android/gradle/
+.gradle/
+android/app/src/main/gen/
+android/app/src/main/res/values/
+**/intermediates/
+**/generated/
+**/merged_native_libs/
+**/tmp/
+**/*.so
+**/*.a
+**/*.dex
+
+# iOS build files
+ios/build/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# Sensitive files - DO NOT COMMIT
+*.jks
+*.keystore
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+google-services.json
+GoogleService-Info.plist
+
+# API Keys and Secrets
+**/api_keys.dart
+**/secrets.dart
+**/config/api_keys.json
+.env
+.env.local
+
+# Project specific documentation (keep only README)
+PROJE_DETAYLI_DOKUMAN.md
+
+# Build and temporary files
+*.apk
+*.aab
+*.ipa
+split-debug-info/
+
+# Source code - SHOWCASE ONLY
+lib/
+android/
+ios/
+linux/
+macos/
+windows/
+web/
+test/
+pubspec.yaml
+pubspec.lock
+analysis_options.yaml
+*.iml
+build.gradle
